@@ -58,17 +58,23 @@
         "develop/*.md": "non-product-specific",
         "excel/*.md": "excel",
         "onenote/*.md": "onenote",
-        "outlook/*.md": "outlook",
         "overview/*.md": "non-product-specific",
         "powerpoint/*.md": "powerpoint",
         "project/*.md": "project",
         "publish/*.md": "non-product-specific",
         "reference/*.md": "non-product-specific",
-        "reference/objectmodel/**/*.md": "outlook",
         "resources/*.md": "non-product-specific",
         "testing/*.md": "non-product-specific",
         "visio/*.md": "visio",
         "word/*.md": "word"
+      },
+      "ms.service": {
+        "outlook/*.md": "outlook",
+        "reference/objectmodel/**/*.md": "outlook"
+      },
+      "ms.subservice": {
+        "outlook/*.md": "add-ins",
+        "reference/objectmodel/**/*.md": "add-ins"
       },
       "ms.topic": {
         "quickstarts/*.md": "quickstart",
